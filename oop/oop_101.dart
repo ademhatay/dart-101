@@ -3,7 +3,7 @@ class Araba {
   String? marka;
   String? model;
   int? yil;
-  double? fiyat;
+  double fiyat = 1000;
 
   // Araba sınıfının davranışları
   void calistir() {
@@ -12,6 +12,13 @@ class Araba {
 
   void durdur() {
     print('$marka $model durdu.');
+  }
+
+  void bilgiGoster() {
+    print('Marka: $marka');
+    print('Model: $model');
+    print('Yıl: $yil');
+    print('Fiyat: $fiyat');
   }
 }
 
@@ -30,4 +37,7 @@ void main(List<String> args) {
 
   // Arabayı durdurma
   araba.durdur();
+
+  // Araba bilgilerini gösterme
+  araba.bilgiGoster();
 }
