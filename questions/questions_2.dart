@@ -15,23 +15,23 @@ void main(List<String> args) {
   *
   */
 
-  question1();
+  _question1();
 
-  question2();
+  _question2();
 
-  question3();
+  _question3();
 
-  question4();
+  _question4();
 
-  question5();
+  _question5();
 }
 
-void question1() {
+void _question1() {
   List<String> cities = ["Ankara", "İstanbul", "İzmir", "Bursa"];
   print(cities);
 }
 
-void question2() {
+void _question2() {
   Map<String, dynamic> computer = {
     "model": "Macbook Pro",
     "year": 2019,
@@ -42,7 +42,7 @@ void question2() {
   print(computer);
 }
 
-void question3() {
+void _question3() {
   List<Map<String, dynamic>> cities = [
     {"name": "Ankara", "plate": 6, "districts": 25},
     {"name": "İstanbul", "plate": 34, "districts": 39},
@@ -56,7 +56,7 @@ void question3() {
   }
 }
 
-void question4() {
+void _question4() {
   List<int> list1 = [];
   List<int> list2 = [];
 
@@ -76,7 +76,7 @@ void question4() {
   print(set);
 }
 
-void question5() {
+void _question5() {
   List<int> numbers = [];
 
   while (true) {
