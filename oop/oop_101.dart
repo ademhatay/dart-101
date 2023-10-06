@@ -1,9 +1,9 @@
 class Araba {
   // Araba sınıfının özellikleri
-  late String marka;
-  late String model;
-  late int yil;
-  late double fiyat;
+  String? marka;
+  String? model;
+  int? yil;
+  double? fiyat;
 
   // Araba sınıfının davranışları
   void calistir() {
